@@ -2,12 +2,16 @@
 	--container-width: 1200px;
 	--container-padding: 15px;
 
-	--font-main: 'Poppins', sans-serif;
-	--font-accent: 'Playfair Display', serif;
+	// --font-main: 'Poppins', sans-serif;
+	// --font-accent: 'Playfair Display', serif;
 
 	--page-bg: #fff;
 	--text-color: #000;
-	--accent: #ac182c;
+	--accent: #fe3e57;
+	--default: #8d8d8d;
+	--title: #29282d;
+	--white: #fff;
+	
 
     --laptop-size: 1199px;
 	--tablet-size: 959px;
@@ -17,4 +21,24 @@
 .dark {
     --page-bg: #252526;
     --text-color: #fff;
+}
+
+%quicksand-400 {
+	font-family: 'Quicksand-Regural', sans-serif;
+    font-weight: 400;
+}
+
+%quicksand-500 {
+	font-family: 'Quicksand-Medium', sans-serif;
+    font-weight: 500;
+}
+
+%roboto-400 {
+	font-family: 'Roboto-Regural', sans-serif;
+    font-weight: 400;
+}
+
+%roboto-700 {
+	font-family: 'Roboto-Bold', sans-serif;
+    font-weight: 700;
 }
